@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Consultation Page</title>
+    <link rel ="stylesheet" href="desigen.css">
+    <script src="design.js"></script>
+   
+</head>
+<body>
+   
+    <header>
+        <img src="pic/logo.png" alt="Platform Logo" width="80">
+      </header>
+
+
+    <div class="container">
+        <div id="consultation-info">
+            <!-- Display client's design consultation request information here -->
+           <div class="text">  <h2> Design Consultation </h2></div>
+            <!-- Include dynamic content based on the actual consultation information -->
+<div class= "req"><h2>Request information</h2></div>
+<fieldset><div class=" reqinfo">
+
+            <p>Client :Sara Ahmed</p>
+            <p>Room:Living Room</p>
+            <p>Dimensions:4x5m</p>
+            <p>Design Category:Modren</p>
+            <p>Color preferences : Beige and Green</p>
+            <p>Date:9/1/2024</p>
+            
+            
+            <!-- Add more details as needed --></div>
+        </div></fieldset>
+
+        <form id="consultation-form">
+            <label for="design-description"> Consultation:</label>
+            <textarea id="design-description" name="design-description" rows="4" placeholder="Provide details about the design consultation"></textarea>
+
+            <label for="design-image"><blod>Upload  Image:</blod></label>
+            <input type="file" id="design-image" name="design-image" accept="image/*" />
+
+            <button type="button" onclick="location.href='home.html'"><div class ="send">Send</button>
+        </fieldset>
+        </form>
+    </div>
+
+  
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+/* Add your styles here */
+
+body {
+    font-family:monospace;
+    /*line-height: 10px;*/
+    background-image: url(pic/back6.jpg);
+    
+}
+.select{
+
+    position: relative;
+    bottom: -80px;
+    left: -160px;
+  
+
+}
+.s1{
+
+    position: relative;
+
+    bottom: -8px;
+    left: -2px;
+  
+
+
+}
+.alreem{
+    position: relative;
+    bottom: -20px;
+  
+}
+
+
+#client-info{
+    position: relative;
+    top: 20px;
+    width: 800px;
+    height: 20px;
+
+}
+  /*taple;*/
+.in{
+    position: relative;
+    top: 10px;
+    right: -190px;
+    
+  
+
+}
+ /*pervious design;*/
+section {
+   
+    position:relative;
+    top: -30px;
+    left: 28px;
+}
+
+
+
+h1, h2 {
+    color: #0f0f0f;
+}
+
+
+
+
+table {
+    width:70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+   
+    
+}
+
+ td {
+    border: 1px solid #322c1bbc;
+    padding: 10px;
+    text-align: left;
+    background-color:  #e5e0d7f0; 
+    text-align: center;
+}
+
+th {
+    border: 1px solid #322c1bbc;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+text-align: center;
+}
+
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.designers-table{
+margin-right: -10px;
+left: -8px;
+
+}
+
+.filter{
+
+ font-family: monospace;
+ color: rgba(217, 209, 228, 0.918);
+ text-align: center;
+ font-size: 15px;
+ position: relative;
+ bottom: -80px;
+ left:-160px;
+}
+
+.filter-btn{
+background-color: rgb(213, 200, 179);
+font-size: 15px;
+position: relative;
+bottom: -80px;
+left: -160px;
+}
+
+.drop{  
+
+    position: relative;
+    right: -888px;
+    top: -280px;
+    bottom: 70px;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+ 
+
+
+
+
+.sign-out-link{
+    position:relative;
+    right: -990px;
+    top:-880px;
+    font-size: 20px;
+
+}
+
