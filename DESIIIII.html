@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home page</title>
+        <link rel='stylesheet' href='style.css'>
+        <link rel='stylesheet' href='desigen.css'>
+    </head>
+
+    <body>
+          <header>
+            <img src="pic/logo.png" alt="Platform Logo">
+          </header>
+
+
+          <main >
+
+            <div class="container">
+                <div id="consultation-info">
+                  
+                   <div class="text">  <h2> Design Consultation </h2></div>
+        
+        <div class= "req"><h2>Request information</h2></div>
+        <fieldset><div class=" reqinfo">
+        
+                    <p>Client :Sara Ahmed</p>
+                    <p>Room:Living Room</p>
+                    <p>Dimensions:4x5m</p>
+                    <p>Design Category:Modren</p>
+                    <p>Color preferences : Beige and Green</p>
+                    <p>Date:9/1/2024</p>
+                    
+                    
+               </div>
+                </fieldset>
+        
+                <form id="consultation-form" method="post">
+                    <label for="design-description"> Consultation:</label>
+                    <textarea id="design-description" name="design-description" rows="4" placeholder="Provide details about the design consultation"></textarea>
+        
+                    <label for="design-image">Upload  Image:</label>
+                    <input type="file" id="design-image" name="design-image" accept="image/*" />
+        
+                    <button type="button" onclick="location.href='designer-homepage.html'">Send</button>
+                </form>
+            </div>
+        
+          
+            </div>
+          </main>
+    </body>
+
+
+</html>
